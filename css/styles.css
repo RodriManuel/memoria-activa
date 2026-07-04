@@ -1,1 +1,15 @@
 /* Estilos de la landing page */
+
+:root {
+    --azul: #1A365D;
+    --celeste: #74ACDF;
+    --gris: #F8F9FA;
+    --blanco: #FFFFFF;
+    --oro: #D4AF37;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
