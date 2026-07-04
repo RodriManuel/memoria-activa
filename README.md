@@ -1,7 +1,7 @@
-# Memoria Viva
+# Memoria Activa
 Landing page desarrollada para la materia **Lenguajes Informáticos I**
 
-El proyecto forma parte de la iniciativa *Programando con Memoria*, el objetivo es aplicar conceptos de dsarrollo web en la construcción de un sitio dedicado a la memoria, la verdad y la justicia.
+El proyecto forma parte de la iniciativa *Programando con Memoria*, el objetivo es aplicar conceptos de desarrollo web en la construcción de un sitio dedicado a la memoria, la verdad y la justicia.
 
 ## Tecnologías utilizadas
 ![HTML5](https://img.shields.io/badge/HTML5-white?logo=html5&logoColor=white&color=E34F26) 
@@ -19,7 +19,7 @@ El proyecto forma parte de la iniciativa *Programando con Memoria*, el objetivo 
 - Generador de una tarjeta conmemorativa.
 
 ## Estructura del proyecto
-    memoria-viva/
+    memoria-activa/
     ├── index.html  
     ├── css/
     │   └── styles.css
