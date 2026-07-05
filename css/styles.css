@@ -1,4 +1,6 @@
 /* Estilos de la landing page */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
 
 :root {
     --azul: #1A365D;
@@ -6,12 +8,23 @@
     --gris: #F8F9FA;
     --blanco: #FFFFFF;
     --oro: #D4AF37;
+
+    --fuente-general: 'Inter', serif;
+    --fuente-titulos:'Lora', sans-serif;
 }
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+body {
+  font-family: var(--fuente-general);
+}
+
+h1, h2, h3 {
+  font-family: var(--fuente-titulos);
 }
 
 /* dimensiones del logo: 1966 x 683 */
