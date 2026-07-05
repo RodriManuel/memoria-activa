@@ -19,6 +19,14 @@
   box-sizing: border-box;
 }
 
+html {
+  /* Deja el espacio exacto de tu barra para que no tape nada */
+  scroll-padding-top: 55px; 
+  
+  /* Esto hace que el salto no sea brusco, sino un deslizamiento suave */
+  scroll-behavior: smooth; 
+}
+
 body {
   font-family: var(--fuente-general);
   background-color: var(--gris);
