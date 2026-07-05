@@ -35,6 +35,15 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  box-shadow: 0 1px 3px black;
+}
+/* dimensiones del logo: 1966 x 683 */
+.logo {
+  width: 147.45px;
+  height: 50.85px;
 }
 
 .nav-links > ul {
@@ -47,8 +56,7 @@ header {
   text-decoration: none;
 }
 
-/* dimensiones del logo: 1966 x 683 */
-.logo {
-  width: 147.45px;
-  height: 50.85px;
+/* Estilos en Main */
+main {
+  padding-top: 50.85px;
 }
