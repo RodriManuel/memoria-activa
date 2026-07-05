@@ -13,3 +13,9 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+/* dimensiones del logo: 1966 x 683 */
+.logo {
+  width: 147.45px;
+  height: 50.85px;
+}
