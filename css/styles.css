@@ -20,10 +20,7 @@
 }
 
 html {
-  /* Deja el espacio exacto de tu barra para que no tape nada */
   scroll-padding-top: 55px; 
-  
-  /* Esto hace que el salto no sea brusco, sino un deslizamiento suave */
   scroll-behavior: smooth; 
 }
 
@@ -62,9 +59,26 @@ header {
 
 .nav-links ul li a {
   text-decoration: none;
+  color: var(--azul);
 }
 
 /* Estilos en Main */
 main {
-  padding-top: 50.85px;
+  padding-top: 55px;
+}
+
+/* Estilos del footer */
+
+#footer {
+  background-color: var(--azul);
+  text-align: center;
+}
+
+#footer p {
+  color: ghostwhite;
+  
+}
+
+#footer h3 {
+  color: ghostwhite;
 }
