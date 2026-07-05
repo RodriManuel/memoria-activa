@@ -160,7 +160,25 @@
         </section>
 
         <section id="section-tarjeta">
-            <h2>Tarjeta Conmemorativa</h2>
+            <h2>Generador de Tarjeta Conmemorativa</h2>
+            <p>Escribí un nombre y un mensaje para generar una tarjeta conmemorativa personalizada.</p>
+
+            <form id="form-tarjeta">
+                <div>
+                    <label for="nombre">Nombre</label>
+                    <input type="text" id="nombre" placeholder="Ingresá tu nombre">
+                </div>
+
+                <div>
+                    <label for="mensaje">Mensaje</label>
+                    <textarea id="mensaje" placeholder="Escribí un mensaje"></textarea>
+                </div>
+
+                <button type="button" id="btnGenerar">Generar Tarjeta</button>
+            </form>
+
+            <div id="vista-previa"></div>
+
         </section>
 
         <section id="section-form">
