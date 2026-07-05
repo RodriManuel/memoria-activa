@@ -95,8 +95,8 @@ header {
         top: 100%; /* Aparece justo abajo del header */
         left: 0;
         width: 100%;
-        background-color: #fff;
-        box-shadow: 0px 4px 6px rgba(0,0,0,0.1);
+        background-color: var(--gris);
+        box-shadow: 0 1px 3px black;
     }
 
     /* Cuando JavaScript le ponga la clase 'active', se va a mostrar */
