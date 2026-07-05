@@ -21,10 +21,20 @@
 
 body {
   font-family: var(--fuente-general);
+  background-color: var(--gris);
 }
 
 h1, h2, h3 {
   font-family: var(--fuente-titulos);
+}
+
+/*Estilos para la barra de navegación*/
+header {
+  background-color: var(--gris);
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 /* dimensiones del logo: 1966 x 683 */
