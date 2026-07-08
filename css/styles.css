@@ -118,6 +118,13 @@ main {
 
 }
 
+/* Section Hero */
+#section-hero {
+  background-color: var(--celeste);
+  text-align: center;
+  padding: 1em;
+}
+
 /* Estilos del footer */
 
 #footer {
