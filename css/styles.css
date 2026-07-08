@@ -84,6 +84,9 @@ header {
 
 /* Menú responsive */
 @media (max-width: 768px) {
+  html {
+    scroll-padding-top: 260px; 
+  }
   /* Mostramos la hamburguesa */
   .menu-toggle {
     display: flex;
@@ -115,7 +118,6 @@ header {
 /* Estilos en Main */
 main {
   padding-top: 60px;
-
 }
 
 /* Section Hero */
