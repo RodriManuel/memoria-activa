@@ -193,7 +193,30 @@ main {
   top: 42px; 
   left: 50%;
   margin-left: -3px;
+}
 
+.left-container-arrow {
+  height: 0;
+  width: 0;
+  position: absolute;
+  top: 35px;
+  z-index: 1;
+  border-top: 0.95em solid transparent;
+  border-bottom: 0.95em solid transparent;
+  border-left: 0.95em solid var(--blanco);
+  right: 2.35em; 
+}
+
+.right-container-arrow {
+  height: 0;
+  width: 0;
+  position: absolute;
+  top: 35px;
+  z-index: 1;
+  border-top: 0.95em solid transparent;
+  border-bottom: 0.95em solid transparent;
+  border-right: 0.95em solid var(--blanco);
+  left: 2.35em; 
 }
 
 /* Estilos del footer */
