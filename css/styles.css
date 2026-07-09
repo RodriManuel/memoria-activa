@@ -133,6 +133,7 @@ main {
   position: relative;
   max-width: 1200px;
   margin: 100px auto;
+  background-color: rgb(21, 18, 18);
   background-image: url("../img/timeline_background.jpg");
   background-position: center;
 }
@@ -140,6 +141,7 @@ main {
 #section-time-line h2 {
   color: var(--gris);
   text-align: center;
+  color: rgb(169, 33, 33);
 }
 
 .container-tl-item {
@@ -170,7 +172,7 @@ main {
   width: 50px;
   border-radius: 50%;
   right: -20px;
-  top: 32px;
+  top: 25px; 
   z-index: 5;
 }
 
