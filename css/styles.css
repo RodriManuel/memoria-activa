@@ -218,6 +218,45 @@ main {
   border-right: 0.95em solid var(--blanco);
   left: 2.35em; 
 }
+/* Línea de tiempo responsive */
+@media screen and (max-width: 768px) {
+  #section-time-line {
+   margin: 50px auto;
+  }
+
+  #section-time-line::after {
+   left: 31px;
+  }
+
+  .container-tl-item {
+    width: 100%;
+    padding-left: 80px;
+    padding-right: 25px;
+  }
+
+  .timeline-item {
+    font-size: 13px;
+  }
+
+  .timeline-item p {
+    margin-bottom: 10px;
+  }
+
+  .right-tl-container {
+    left: 0;
+  }
+
+  .left-tl-container img, .right-tl-container img {
+    left: 10px;
+  }
+
+  .left-container-arrow, .right-container-arrow {
+    border-right: 0.95em solid var(--blanco); 
+    border-left: 0;
+    right: auto; 
+    left: calc(80px - 0.95em);
+  }
+}
 
 /* Estilos del footer */
 #footer {
