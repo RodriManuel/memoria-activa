@@ -133,7 +133,8 @@ main {
   position: relative;
   max-width: 1200px;
   margin: 100px auto;
-  background-color: #2b2929;
+  background-image: url("../img/timeline_background.jpg");
+  background-position: center;
 }
 
 #section-time-line h2 {
