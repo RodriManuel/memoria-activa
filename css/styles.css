@@ -265,13 +265,17 @@ main {
 #footer {
   background-color: var(--azul);
   text-align: center;
+  padding: 30px 15px;
+  margin-top: 40px;
 }
 
 #footer p {
   color: ghostwhite;
-  
+  font-size: 0.9rem;
+  margin-top: 10px;  
 }
 
 #footer h3 {
+  font-size: 1rem;
   color: ghostwhite;
 }
