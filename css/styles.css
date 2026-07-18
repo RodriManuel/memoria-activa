@@ -133,8 +133,7 @@ main {
   position: relative;
   max-width: 1200px;
   margin: 100px auto;
-  background-color: rgb(21, 18, 18);
-  background-image: url("../img/timeline_background.jpg");
+  background-color: rgb(7, 6, 6);
   background-position: center;
 }
 
