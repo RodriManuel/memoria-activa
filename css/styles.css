@@ -3,10 +3,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
 
 :root {
-  --azul: #1A365D;
-  --celeste: #74ACDF;
-  --gris: #F8F9FA;
-  --blanco: #FFFFFF;
+  --azul-profundo: #0D1B2A;
+  --azul: #2D6CA2;
+  --celeste: #A8C5EA;
+  --celeste-palido: #E8F1FA;
+  --fondo-general: #F8F9FA;
+  --gris: #6B7280;
+  --blanco: #F5F7FA;
+  --rojo: #B71C1C;
   --oro: #D4AF37;
 
   --fuente-general: 'Inter', serif;
