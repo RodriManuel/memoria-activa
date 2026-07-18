@@ -272,6 +272,29 @@ main {
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); ;
 }
 
+#section-form input[type="email"],
+#section-form input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ABCDE1;
+  border-radius: 4px;
+}
+/* 
+#form-newsletter input[type="text"],
+#form-newsletter input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ABCDE1;
+    border-radius: 4px;
+    font-family: 'Lato', sans-serif;
+}
+
+#form-newsletter form {
+    text-align: center;
+}
+*/
 /* Estilos del footer */
 #footer {
   background-color: var(--azul);
