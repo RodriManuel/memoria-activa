@@ -261,6 +261,17 @@ main {
   }
 }
 
+/* Estilos del formulario de adhesión */
+#section-form {
+  width: 100%;
+  max-width: 450px;
+  margin: 20% auto; 
+  background-color: var(--celeste);
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); ;
+}
+
 /* Estilos del footer */
 #footer {
   background-color: var(--azul);
