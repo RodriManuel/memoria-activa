@@ -30,7 +30,7 @@ html {
 
 body {
   font-family: var(--fuente-general);
-  background-color: var(--gris);
+  background-color: var(--fondo-general);
 }
 
 h1, h2, h3 {
@@ -39,7 +39,7 @@ h1, h2, h3 {
 
 /*Estilos para la barra de navegación*/
 header {
-  background-color: var(--gris);
+  background-color: var(--fondo-general);
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -144,7 +144,7 @@ main {
 #section-time-line h2 {
   color: var(--gris);
   text-align: center;
-  color: rgb(169, 33, 33);
+  color: var(--rojo);
 }
 
 .container-tl-item {
@@ -290,7 +290,7 @@ main {
 }
 
 #section-form p {
-  color: rgb(169, 33, 33);
+  color: var(--rojo);
   font-size: 1.25rem;
   padding-left: 0;                 
   margin-bottom: 25px;
@@ -299,23 +299,24 @@ main {
 
 #section-form form {
   text-align: center;
+  background-color: var(--celeste);
 }
 
 /* Estilos del footer */
 #footer {
-  background-color: var(--azul);
+  background-color: var(--azul-profundo);
   text-align: center;
   padding: 30px 15px;
   margin-top: 40px;
 }
 
 #footer p {
-  color: ghostwhite;
+  color: var(--blanco);
   font-size: 0.9rem;
   margin-top: 10px;  
 }
 
 #footer h3 {
   font-size: 1rem;
-  color: ghostwhite;
+  color: var(--blanco);
 }
