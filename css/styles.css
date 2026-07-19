@@ -4,7 +4,7 @@
 
 :root {
   --azul-profundo: #0D1B2A;
-  --azul: #2D6CA2;
+  --azul: #094880;
   --celeste: #A8C5EA;
   --celeste-palido: #E8F1FA;
   --fondo-general: #F8F9FA;
@@ -269,37 +269,52 @@ main {
   width: 100%;
   max-width: 450px;
   margin: 20% auto; 
-  background-color: var(--celeste);
-  padding: 40px;
+  background-color: var(--celeste-claro);
+  padding: 25px;
   border-radius: 8px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); ;
+}
+
+#section-form form {
+  background-color: var(--celeste);
+  border-radius: 4px;
+  padding: 20px;
 }
 
 #section-form input[type="email"],
 #section-form input[type="text"] {
   width: 100%;
-  padding: 10px;
+  padding: 15px;
   margin: 12px 0;
   border: 1px solid #ABCDE1;
   border-radius: 4px;
 }
 
+#section-form form button {
+  width: 100%;
+  padding: 15px;
+  border: 1px solid #ABCDE1;
+  border-radius: 4px;
+  color: var(--blanco);
+  font-weight: bold;
+  background-color: var(--azul);  
+}
+
 #section-form h2 {
+  font-size: 2.2rem;
   text-align: center;
   line-height: 5rem;
 }
 
-#section-form p {
-  color: var(--rojo);
-  font-size: 1.25rem;
-  padding-left: 0;                 
-  margin-bottom: 25px;
+#parrafo-adhesion {
+  margin: 10px;
   text-align: center;
 }
 
-#section-form form {
-  text-align: center;
-  background-color: var(--celeste);
+#section-form form p {
+  color: var(--rojo);
+  font-size: 1.35rem; 
+  font-weight: bold;
 }
 
 /* Estilos del footer */
