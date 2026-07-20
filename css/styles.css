@@ -265,14 +265,22 @@ main {
 }
 
 /* Estilos del formulario de adhesión */
+#section-form {
+  padding: 20px 30px;
+  background-image: url("../img/section_form_background.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
 #form-container {
   width: 100%;
   max-width: 600px;
   margin: 10% auto; 
-  background-color: var(--celeste-claro);
+  background-color: #E8F1FABF;
   padding: 25px;
   border-radius: 8px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); ;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
 }
 
 #form-container img {
@@ -282,7 +290,7 @@ main {
 }
 
 #form-container form {
-  background-color: var(--celeste);
+  background-color: #A8C5EA99;
   border-radius: 4px;
   padding: 20px;
 }
