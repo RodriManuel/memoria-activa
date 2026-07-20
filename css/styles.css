@@ -24,7 +24,7 @@
 }
 
 html {
-  scroll-padding-top: 55px; 
+  scroll-padding-top: 55px;
   scroll-behavior: smooth; 
 }
 
@@ -90,7 +90,7 @@ header {
 /* Menú responsive */
 @media (max-width: 768px) {
   html {
-    scroll-padding-top: 260px; 
+    scroll-padding-top: 225px; 
   }
   /* Mostramos la hamburguesa */
   .menu-toggle {
@@ -132,6 +132,10 @@ main {
   padding: 1em;
 }
 
+#section-hero {
+  color: var(--azul);
+}
+
 /* Estilos de la línea de tiempo */
 #section-time-line {
   position: relative;
@@ -142,9 +146,8 @@ main {
 }
 
 #section-time-line h2 {
-  color: var(--gris);
+  color: var(--azul);
   text-align: center;
-  color: var(--rojo);
 }
 
 .container-tl-item {
@@ -290,7 +293,7 @@ main {
 }
 
 #form-container form {
-  background-color: #A8C5EA99;
+  background-color: #A8C5EA66;
   border-radius: 4px;
   padding: 20px;
 }
