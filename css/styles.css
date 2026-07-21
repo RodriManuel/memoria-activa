@@ -297,7 +297,10 @@ main {
 
 .card {
   margin: 35px 0;
-
+  background-color: var(--celeste-palido);
+  border-radius: 8px; 
+  padding: 35px 15px; 
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.35);
 }
 
 .card-quote {
