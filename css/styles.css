@@ -286,10 +286,6 @@ main {
   font-size: 2.2rem;
 }
 
-#buscador-container {
-  padding: 10px;
-}
-
 #buscador-container input[type="text"]{
   width: 100%;
   padding: 10px 25px;
@@ -301,7 +297,7 @@ main {
 
 .card {
   margin: 35px 0;
-  
+
 }
 
 .card-quote {
