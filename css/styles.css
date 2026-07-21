@@ -198,7 +198,7 @@ main {
   content: '';
   position: absolute;
   width: 6px;
-  height: 92.5%;   
+  height: 94.7%;     
   background-color: var(--blanco);
   top: 62px; 
   left: 50%;
@@ -242,6 +242,7 @@ main {
 
   #section-time-line::after {
     left: 31px;
+    height: 92.2%;  
   }
 
   .container-tl-item {
