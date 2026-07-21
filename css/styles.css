@@ -148,6 +148,7 @@ main {
 #section-time-line h2 {
   color: var(--azul);
   text-align: center;
+  padding: 10px; 
 }
 
 .container-tl-item {
@@ -197,9 +198,9 @@ main {
   content: '';
   position: absolute;
   width: 6px;
-  height: 100%;
+  height: 92.5%;   
   background-color: var(--blanco);
-  top: 42px; 
+  top: 62px; 
   left: 50%;
   margin-left: -3px;
 }
@@ -213,7 +214,7 @@ main {
   border-top: 0.95em solid transparent;
   border-bottom: 0.95em solid transparent;
   border-left: 0.95em solid var(--blanco);
-  right: 2.35em; 
+  right: 2.50em;  
 }
 
 .right-container-arrow {
@@ -225,16 +226,22 @@ main {
   border-top: 0.95em solid transparent;
   border-bottom: 0.95em solid transparent;
   border-right: 0.95em solid var(--blanco);
-  left: 2.35em; 
+  left: 2.50em;  
 }
 /* Línea de tiempo responsive */
 @media screen and (max-width: 768px) {
   #section-time-line {
-   margin: 50px auto;
+    margin: 50px auto;
+  }
+  
+  #section-time-line h2 {
+    color: var(--azul);
+    text-align: left;
+    padding: 10px;
   }
 
   #section-time-line::after {
-   left: 31px;
+    left: 31px;
   }
 
   .container-tl-item {
@@ -263,7 +270,7 @@ main {
     border-right: 0.95em solid var(--blanco); 
     border-left: 0;
     right: auto; 
-    left: calc(80px - 0.95em);
+    left: calc(80px - 0.85em);  
   }
 }
 
@@ -314,7 +321,7 @@ main {
   border-radius: 4px;
   color: var(--blanco);
   font-weight: bold;
-  background-color: var(--azul);  
+  background-color: #094880F2;   
 }
 
 #form-container h2 {
