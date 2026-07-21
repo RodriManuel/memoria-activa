@@ -311,6 +311,13 @@ blockquote {
   padding: 15px;
 }
 
+#parrafo-final-testimonios {
+  color: var(--rojo); 
+  font-weight: bold;
+  font-size: 0.87rem;
+  text-align: center;  
+}
+
 /* Estilos del formulario de adhesión */
 #section-form {
   padding: 20px 30px;
