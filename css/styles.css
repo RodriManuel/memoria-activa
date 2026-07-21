@@ -147,6 +147,7 @@ main {
 
 #section-time-line h2 {
   color: var(--azul);
+  font-size: 1.75rem;
   text-align: center;
   padding: 10px; 
 }
@@ -275,6 +276,45 @@ main {
   }
 }
 
+/* Estilos de la sección de testimonios */
+#section-testimonios {
+  padding: 20px;
+}
+
+#section-testimonios h2 {
+  color: var(--azul);
+  font-size: 2.2rem;
+}
+
+#buscador-container {
+  padding: 10px;
+}
+
+#buscador-container input[type="text"]{
+  width: 100%;
+  padding: 10px 25px;
+  margin: 12px auto;
+  border: 1px solid var(--celeste);
+  border-radius: 8px; 
+  box-shadow: 0 4px 5px rgba(0, 0, 0, 0.2);
+}
+
+.card {
+  margin: 35px 0;
+  
+}
+
+.card-quote {
+  font-size: 2rem;
+  font-weight: 800;
+  line-height: 10%;
+  color: var(--azul); 
+}
+
+blockquote {
+  padding: 15px;
+}
+
 /* Estilos del formulario de adhesión */
 #section-form {
   padding: 20px 30px;
@@ -322,7 +362,7 @@ main {
   border-radius: 4px;
   color: var(--blanco);
   font-weight: bold;
-  background-color: #094880F2;   
+  background-color: #094880E6;   
 }
 
 #form-container h2 {
