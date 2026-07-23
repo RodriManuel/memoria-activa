@@ -297,8 +297,18 @@ main {
   box-shadow: 0 4px 5px rgba(0, 0, 0, 0.2);
 }
 
+.cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px; 
+  justify-content: center;
+  margin-top: 35px;
+  margin-bottom: 20px;
+}
+
 .card {
-  margin: 35px 0;
+  flex: 2 2 300px;
+  max-width: 450px;
   background-color: #E8F1FAF2; 
   border-radius: 8px; 
   padding: 35px 15px; 
