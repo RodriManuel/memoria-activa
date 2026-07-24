@@ -375,12 +375,11 @@ blockquote {
   padding: 10px;
   border: 1px solid var(--celeste);
   border-radius: 8px;
-
 }
 
 #parrafo-2-tarjeta {
   font-size: 0.85rem;
-  color: var(--azul-profundo);
+  color: var(--azul);
 }
 
 #parrafo-3-tarjeta {
