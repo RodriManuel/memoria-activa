@@ -334,19 +334,58 @@ blockquote {
 }
 
 /* Estilos de la sección de la tarjeta conmemorativa */
+#section-tarjeta {
+  padding: 20px;
+}
+
 #section-tarjeta h2 {
   color: var(--azul);
+  font-size: 1.75rem;
 }
 
 #form-tarjeta {
-  background-color: var(--celeste-palido);
+  background-color: #E8F1FA;
   padding: 15px;
-  margin: 20px;
+  margin: 25px auto;
   border-radius: 8px;
 }
 
 #form-tarjeta div {
   margin: 15px auto;
+}
+
+#form-tarjeta h3 {
+  color: var(--azul);
+}
+
+#parrafo-1-tarjeta {
+  font-size: 0.9rem;
+}
+
+#parrafo-2-container {
+  background-color: #A8C5EABF;
+  padding: 10px;
+  border: 1px solid var(--celeste);
+  border-radius: 8px;
+
+}
+
+#parrafo-2-tarjeta {
+  font-size: 0.85rem;
+  color: var(--azul-profundo);
+}
+
+#parrafo-3-tarjeta {
+  color: #4A4A4AB3;
+  font-weight: bold;
+  font-size: 0.75rem;
+  margin: 10px;
+  text-align: center;
+}
+
+#form-tarjeta label {
+  color: var(--azul);
+  font-weight: 500;
 }
 
 #form-tarjeta input[type="text"] {
@@ -359,17 +398,19 @@ blockquote {
 #mensaje {
   padding: 10px 20px;
   width: 100%;
+  height: 6rem;
   border: 1px solid #ABCDE1;
   border-radius: 8px;
 }
 
 #form-tarjeta button {
-  background-color: #0D1B2AF7; 
+  background-color: #094880F7; 
   color: var(--blanco);
   padding: 10px;
   width: 100%;
   border: 1px solid #ABCDE1;
   border-radius: 8px;
+  font-weight: bold;
 }
 
 /* Estilos del formulario de adhesión */
