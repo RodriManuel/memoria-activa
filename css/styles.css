@@ -347,6 +347,8 @@ blockquote {
 #section-tarjeta h2 {
   color: var(--azul);
   font-size: 1.75rem;
+  line-height: 1.6rem;
+  margin-bottom: 10px;
 }
 
 #form-tarjeta {
