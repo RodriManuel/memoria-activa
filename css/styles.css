@@ -333,6 +333,45 @@ blockquote {
   text-align: center;  
 }
 
+/* Estilos de la sección de la tarjeta conmemorativa */
+#section-tarjeta h2 {
+  color: var(--azul);
+}
+
+#form-tarjeta {
+  background-color: var(--celeste-palido);
+  padding: 15px;
+  margin: 20px;
+  border-radius: 8px;
+}
+
+#form-tarjeta div {
+  margin: 15px auto;
+}
+
+#form-tarjeta input[type="text"] {
+  padding: 10px 20px;
+  width: 100%;
+  border: 1px solid #ABCDE1;
+  border-radius: 8px;
+}
+
+#mensaje {
+  padding: 10px 20px;
+  width: 100%;
+  border: 1px solid #ABCDE1;
+  border-radius: 8px;
+}
+
+#form-tarjeta button {
+  background-color: #0D1B2AF7; 
+  color: var(--blanco);
+  padding: 10px;
+  width: 100%;
+  border: 1px solid #ABCDE1;
+  border-radius: 8px;
+}
+
 /* Estilos del formulario de adhesión */
 #section-form {
   padding: 20px 30px;
