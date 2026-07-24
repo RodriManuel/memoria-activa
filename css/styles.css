@@ -47,7 +47,7 @@ header {
   position: fixed;
   top: 0;
   left: 0;
-  box-shadow: 0 1px 3px black;
+  box-shadow: 0 3px 7px rgba(0, 0, 0, 0.5);
   z-index: 10;
 }
 /* dimensiones del logo: 1966 x 683 */
@@ -105,7 +105,7 @@ header {
     left: 0;
     width: 100%;
     background-color: var(--fondo-general);
-    box-shadow: 0 1px 3px black;
+    box-shadow: 0 3px 7px rgba(0, 0, 0, 0.5);
   }
 
   /* Cuando JavaScript le ponga la clase 'active', se va a mostrar */
@@ -356,6 +356,7 @@ blockquote {
   padding: 15px;
   margin: 25px auto;
   border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
 }
 
 #form-tarjeta div {
