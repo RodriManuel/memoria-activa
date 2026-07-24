@@ -335,7 +335,13 @@ blockquote {
 
 /* Estilos de la sección de la tarjeta conmemorativa */
 #section-tarjeta {
-  padding: 20px;
+  padding: 25px 20px;
+}
+
+#subparrafo-tarjeta {
+  font-size: 0.95rem;
+  width: 80%;
+  font-weight: 450;
 }
 
 #section-tarjeta h2 {
