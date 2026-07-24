@@ -199,10 +199,12 @@
         </section>
 
         <section id="section-tarjeta">
-            <h2>Creá tu tatjeta conmemorativa</h2>
+            <h2>Creá tu tarjeta conmemorativa</h2>
             <p>Compartí un mensaje en favor de la Memoria, la Verdad y la Justicia <br> Tu voz también consigue historia.</p>
 
             <form id="form-tarjeta">
+                <h3>Escribí tu mensaje</h3> 
+                <p id="parrafo-1-tarjeta">Completá los campos y generá tu tarjeta personalizada.</p>
                 <div>
                     <label for="nombre">Nombre</label> <br>
                     <input type="text" id="nombre" placeholder="Ingresá tu nombre">
@@ -213,7 +215,13 @@
                     <textarea id="mensaje" placeholder="Escribí un mensaje"></textarea>
                 </div>
 
+                <div id="parrafo-2-container">
+                    <p id="parrafo-2-tarjeta">Recordá que tu mensaje será parte de una construcción colectiva por la Memoria, la Verdad y la Justicia.</p>
+                </div>
+
                 <button type="button" id="btnGenerar">Generar Tarjeta</button>
+
+                <p id="parrafo-3-tarjeta">Tu información no será publicada ni compartida.</p>
             </form>
 
             <div id="vista-previa"></div>
