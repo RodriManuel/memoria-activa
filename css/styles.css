@@ -326,6 +326,10 @@ blockquote {
   padding: 15px;
 }
 
+hr {
+  margin-bottom: 10px;
+}
+
 article footer {
   display: flex;
   gap: 15px;
