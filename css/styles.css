@@ -130,15 +130,45 @@ main {
   padding-top: 60px;
 }
 
-/* Section Hero */
+/* Estilos para el Hero de la página */
 #section-hero {
-  background-color: var(--celeste);
-  text-align: center;
-  padding: 1em;
+  color: var(--blanco);
+  padding: 1rem;
+  background-image: url("../img/background_hero.png"); 
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
-#section-hero {
-  color: var(--azul);
+#section-hero h1 {
+  max-width: 50%;
+  margin: .5rem 0;  
+}
+
+#section-hero p {
+  max-width: 60%;
+  margin: .5rem 0;
+}
+
+#oracion-destacada {
+  font-weight: 800;
+  color: var(--azul); 
+}
+
+#to-timeline {
+  padding: 0.5rem;
+  color: var(--blanco);
+  background-color: #094880;
+  border: 1px solid var(--azul);
+  border-radius: 4px;
+}
+
+#to-testimonials {
+  padding: 0.5rem;
+  color: var(--blanco);
+  background-color: rgba(255, 255, 255, 0);
+  border: 1px solid var(--blanco);
+  border-radius: 4px;
 }
 
 /* Fondo gradiente desde línea de tiempo hasta tarjeta conmemorativa */
