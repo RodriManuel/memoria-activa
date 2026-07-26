@@ -31,9 +31,10 @@ html {
 body {
   font-family: var(--fuente-general);
   background-color: var(--fondo-general);
-  background-image: url("../img/background_general.png");
-  background-position: fixed;
+  background-image: url("../img/background_general_v2.png");
+  background-attachment: fixed;
   background-repeat: no-repeat;
+  background-position: right;
   background-size: cover;
 }
 
@@ -282,7 +283,6 @@ main {
 /* Estilos de la sección de testimonios */
 #section-testimonios {
   padding: 20px;
-  background-position: right;
 }
 
 #section-testimonios h2 {
