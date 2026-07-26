@@ -155,6 +155,12 @@ main {
   color: var(--azul); 
 }
 
+.container-links-hero {
+  display: flex;
+  gap: 0.35rem;
+  flex-wrap: wrap;
+}
+
 #to-timeline {
   padding: 0.5rem;
   color: var(--blanco);
