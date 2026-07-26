@@ -141,6 +141,11 @@ main {
   color: var(--azul);
 }
 
+/* Fondo gradiente desde línea de tiempo hasta tarjeta conmemorativa */
+#fondo-transparente {
+  background-image: linear-gradient(to bottom, transparent 70%, rgba(255,255,255,0.9));  
+}
+
 /* Estilos de la línea de tiempo */
 #section-time-line {
   position: relative;
