@@ -161,6 +161,7 @@ main {
   background-color: #094880;
   border: 1px solid var(--azul);
   border-radius: 4px;
+  text-decoration: none; 
 }
 
 #to-testimonials {
@@ -169,6 +170,7 @@ main {
   background-color: rgba(255, 255, 255, 0);
   border: 1px solid var(--blanco);
   border-radius: 4px;
+  text-decoration: none; 
 }
 
 /* Fondo gradiente desde línea de tiempo hasta tarjeta conmemorativa */
