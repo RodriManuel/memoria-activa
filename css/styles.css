@@ -194,7 +194,7 @@ main {
 
 .timeline-item {
   padding: 20px 30px;
-  background-color: var(--blanco);
+  background-color: #E8F1FAE6;
   border-radius: 6px;
   font-size: 0.95em;
 }
@@ -204,7 +204,7 @@ main {
   position: absolute;
   width: 6px;
   height: 94.7%;     
-  background-color: var(--blanco);
+  background-color: #A8C5EA; 
   top: 62px; 
   left: 50%;
   margin-left: -3px;
@@ -218,7 +218,7 @@ main {
   z-index: 1;
   border-top: 0.95em solid transparent;
   border-bottom: 0.95em solid transparent;
-  border-left: 0.95em solid var(--blanco);
+  border-left: 0.95em solid #E8F1FAE6;
   right: 2.50em;  
 }
 
@@ -230,7 +230,7 @@ main {
   z-index: 1;
   border-top: 0.95em solid transparent;
   border-bottom: 0.95em solid transparent;
-  border-right: 0.95em solid var(--blanco);
+  border-right: 0.95em solid #E8F1FAE6;
   left: 2.50em;  
 }
 /* Línea de tiempo responsive */
@@ -273,7 +273,7 @@ main {
   }
 
   .left-container-arrow, .right-container-arrow {
-    border-right: 0.95em solid var(--blanco); 
+    border-right: 0.95em solid #E8F1FAE6; 
     border-left: 0;
     right: auto; 
     left: calc(80px - 0.85em);  
