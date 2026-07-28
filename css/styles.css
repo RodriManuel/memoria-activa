@@ -138,6 +138,7 @@ main {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  height: 100vh;
 }
 
 #section-hero h1 {
