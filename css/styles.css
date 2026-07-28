@@ -369,11 +369,12 @@ main {
 
 blockquote {
   padding: 15px 15px 0 15px;
+  margin-bottom: 4px;
 }
 
 .card .card-body button {
   padding: 0.25rem 0.5rem;
-  margin: 4px 0 8px 15px; 
+  margin: 0 0 8px 15px; 
   background-color: #094880E6; 
   color: #E8F1FAD9;
   border: 1px solid #09488000; 
