@@ -52,7 +52,7 @@ header {
   position: fixed;
   top: 0;
   left: 0;
-  box-shadow: 0 3px 7px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
   z-index: 10;
 }
 /* dimensiones del logo: 1966 x 683 */
@@ -179,6 +179,7 @@ main {
   text-decoration: none; 
 }
 
+
 /* Estilos de la línea de tiempo */
 #section-time-line {
   position: relative;
@@ -235,7 +236,7 @@ main {
 
 .timeline-item {
   padding: 20px 30px;
-  background-color: #A8C5EABF; 
+  background-color: var(--celeste-palido); 
   border-radius: 6px;
   font-size: 0.95em;
 }
@@ -245,7 +246,7 @@ main {
   position: absolute;
   width: 6px;
   height: 94.7%;     
-  background-color: #A8C5EABF; 
+  background-color: var(--celeste-palido); 
   top: 62px; 
   left: 50%;
   margin-left: -3px;
@@ -259,7 +260,7 @@ main {
   z-index: 1;
   border-top: 0.95em solid transparent;
   border-bottom: 0.95em solid transparent;
-  border-left: 0.95em solid #A8C5EABF;
+  border-left: 0.95em solid var(--celeste-palido);
   right: 2.50em;  
 }
 
@@ -271,7 +272,7 @@ main {
   z-index: 1;
   border-top: 0.95em solid transparent;
   border-bottom: 0.95em solid transparent;
-  border-right: 0.95em solid #A8C5EABF;
+  border-right: 0.95em solid var(--celeste-palido);
   left: 2.50em;  
 }
 /* Línea de tiempo responsive */
@@ -314,7 +315,7 @@ main {
   }
 
   .left-container-arrow, .right-container-arrow {
-    border-right: 0.95em solid #A8C5EABF; 
+    border-right: 0.95em solid var(--celeste-palido); 
     border-left: 0;
     right: auto; 
     left: calc(80px - 0.85em);  
@@ -367,7 +368,16 @@ main {
 }
 
 blockquote {
-  padding: 15px;
+  padding: 15px 15px 0 15px;
+}
+
+.card .card-body button {
+  padding: 0.25rem 0.5rem;
+  margin: 4px 0 8px 15px; 
+  background-color: #094880E6; 
+  color: #E8F1FAD9;
+  border: 1px solid #09488000; 
+  border-radius: 6px;  
 }
 
 hr {
