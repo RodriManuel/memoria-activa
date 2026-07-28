@@ -179,17 +179,20 @@ main {
   text-decoration: none; 
 }
 
-/* Fondo gradiente desde línea de tiempo hasta tarjeta conmemorativa */
+/* Fondo gradiente desde línea de tiempo hasta tarjeta conmemorativa 
 #fondo-transparente {
   background-image: linear-gradient(to bottom, transparent 70%, rgba(255,255,255,0.9));  
-}
+}*/
 
 /* Estilos de la línea de tiempo */
 #section-time-line {
   position: relative;
   max-width: 1200px;
   margin: 0 auto;
-  background-position: center;
+  background-image: url("../img/background_timeline.png");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: cover;
 }
 
 #section-time-line h2 {
@@ -326,6 +329,10 @@ main {
 /* Estilos de la sección de testimonios */
 #section-testimonios {
   padding: 20px;
+  background-image: url("../img/background_testimonios_v2.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 #section-testimonios h2 {
@@ -395,6 +402,7 @@ article footer {
 /* Estilos de la sección de la tarjeta conmemorativa */
 #section-tarjeta {
   padding: 25px 20px;
+  background-image: linear-gradient(to bottom, transparent 10%, rgba(255,255,255));
 }
 
 #subparrafo-tarjeta {
