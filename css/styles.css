@@ -507,55 +507,59 @@ article footer {
   max-width: 600px;
   margin: 10% auto; 
   background-color: #E8F1FABF;
-  padding: 25px;
+  padding: 15px 0;
   border-radius: 8px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
 }
 
 #form-container h3 {
   color: var(--azul);
-  font-size: 1.5rem;   
+  font-size: 1.35rem;   
 }
 
 #form-container img {
-  width: 60%;
+  width: 40%; 
   display: block;
   margin: 0 auto;
 }
 
 #form-container form {
   background-color: #A8C5EA66;
-  border-radius: 4px;
+  border-radius: 8px;
   padding: 20px;
+  max-width: 500px;
+  margin: 0 auto;  
 }
 
 #form-container input[type="email"],
 #form-container input[type="text"] {
   width: 100%;
-  padding: 15px;
-  margin: 12px 0;
+  padding: 12px;
+  margin: 10px 0;
   border: 1px solid #ABCDE1;
-  border-radius: 4px;
+  border-radius: 8px;
 }
 
 #form-container form button {
   width: 100%;
-  padding: 15px;
+  padding: 12px;
+  margin-top: 4px;
   border: 1px solid #ABCDE1;
-  border-radius: 4px;
+  border-radius: 8px;
   color: var(--blanco);
   font-weight: bold;
   background-color: #094880E6;   
 }
 
 #form-container h2 {
-  font-size: 2.2rem;
+  font-size: 1.7rem;
   text-align: center;
   color: var(--azul);
 }
 
 #parrafo-adhesion {
   color: var(--rojo);
+  font-size: 0.9rem;
   margin: 10px;
   text-align: center;
   font-weight: 500;
@@ -564,7 +568,7 @@ article footer {
 #parrafo-adhesion-2 {
   color: #4A4A4A;
   font-weight: bold;
-  font-size: 0.85rem;
+  font-size: 0.8rem;
   margin: 10px;
   text-align: center;
 }
