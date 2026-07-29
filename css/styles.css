@@ -505,9 +505,9 @@ article footer {
 #form-container {
   width: 100%;
   max-width: 600px;
-  margin: 10% auto; 
+  margin: 5% auto; 
   background-color: #E8F1FABF;
-  padding: 15px 20px;
+  padding: 25px 20px;
   border-radius: 8px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
 }
@@ -519,6 +519,7 @@ article footer {
 
 #form-container img {
   width: 40%; 
+  padding-top: 10px;
   display: block;
   margin: 0 auto;
 }
