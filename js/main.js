@@ -17,7 +17,7 @@ citas.forEach(cita => {
     
     let boton = blockquote?.nextElementSibling;
 
-    if (boton && cita.textContent.length < limiteDeCaracteres) {
+    if (boton && cita.textContent.length <= limiteDeCaracteres) {
         boton.style.display = "none";
     } else {
         let displayText = cita.textContent.slice(0, limiteDeCaracteres);
