@@ -8,7 +8,7 @@ menuToggle.addEventListener('click', () => {
 
 
 // Leer Más/Menos en los testimonios.
-let limiteDeCaracteres = 192;
+let limiteDeCaracteres = 144;
 let citas = document.querySelectorAll(".cita");
 
 citas.forEach(cita => {
