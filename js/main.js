@@ -19,5 +19,9 @@ citas.forEach(cita => {
 
     if (boton && cita.textContent.length < limiteDeCaracteres) {
         boton.style.display = "none";
+    } else {
+        let displayText = cita.textContent.slice(0, limiteDeCaracteres);
+        let moreText = cita.textContent.slice(limiteDeCaracteres);
+        cita.innerHTML = `${displayText}<span class="dots">...</span><span class="hide more">${moreText}</span>`;
     }
-})
+});
