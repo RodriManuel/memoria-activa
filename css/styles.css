@@ -435,8 +435,23 @@ article footer {
   margin: 15px auto;
 }
 
-#form-tarjeta h3 {
+#form-tarjeta h3, #vista-previa h3 {
   color: var(--azul);
+}
+
+#vista-previa {
+  background-color: #E8F1FA;
+  padding: 15px;
+  margin: 25px auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+#botones-vista-previa {
+  margin: 0.5rem 1rem;
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
 }
 
 #parrafo-1-tarjeta {
@@ -451,7 +466,7 @@ article footer {
 }
 
 #parrafo-2-tarjeta {
-  font-size: 0.85rem;
+  font-size: 0.78rem;
   color: var(--azul);
 }
 
