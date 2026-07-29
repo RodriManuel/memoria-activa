@@ -25,3 +25,11 @@ citas.forEach(cita => {
         cita.innerHTML = `${displayText}<span class="dots">...</span><span class="hide more">${moreText}</span>`;
     }
 });
+
+function readMore(btn) {
+    let cardBody = btn.parentElement;
+    cardBody.querySelector(".dots").classList.toggle("hide");
+    cardBody.querySelector(".more").classList.toggle("hide");
+
+    btn.textContent == "Leer Más" ? btn.textContent = "Leer Menos" : btn.textContent = "Leer Más";
+}
