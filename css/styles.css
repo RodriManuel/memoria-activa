@@ -450,13 +450,17 @@ article footer {
 #vista-previa {
   background-color: #E8F1FA;
   width: 390px;
+  min-height: 250px; 
   padding: 15px;
   border-radius: 8px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-direction: column;
 }
 
 #botones-vista-previa {
   margin: 0.5rem 1rem;
+  margin-top: auto; 
   display: flex;
   gap: 1rem;
   justify-content: center; 
