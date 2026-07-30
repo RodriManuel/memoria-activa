@@ -423,10 +423,18 @@ article footer {
   margin-bottom: 10px;
 }
 
+#container-form-vista {
+  margin: 25px auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem; 
+  justify-content: space-around; 
+}
+
 #form-tarjeta {
   background-color: #E8F1FA;
+  max-width: 390px;
   padding: 15px;
-  margin: 25px auto;
   border-radius: 8px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
 }
@@ -441,8 +449,8 @@ article footer {
 
 #vista-previa {
   background-color: #E8F1FA;
+  width: 390px;
   padding: 15px;
-  margin: 25px auto;
   border-radius: 8px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
 }
@@ -451,11 +459,13 @@ article footer {
   margin: 0.5rem 1rem;
   display: flex;
   gap: 1rem;
-  justify-content: center;
+  justify-content: center; 
 }
 
 #parrafo-1-tarjeta {
   font-size: 0.9rem;
+  color: var(--rojo);
+  font-weight: 450;
 }
 
 #parrafo-2-container {
@@ -466,7 +476,7 @@ article footer {
 }
 
 #parrafo-2-tarjeta {
-  font-size: 0.78rem;
+  font-size: 0.77rem;
   color: var(--azul);
 }
 
