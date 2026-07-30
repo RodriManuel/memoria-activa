@@ -325,7 +325,7 @@ main {
 /* Estilos de la sección de testimonios */
 #section-testimonios {
   padding: 20px;
-  background-image: linear-gradient(to bottom, white, transparent 8%, transparent 92%, white); 
+  background-image: linear-gradient(to bottom, #F4F1EA, transparent 10%, transparent 90%, #F4F1EAE6); 
 }
 
 #section-testimonios h2 {
