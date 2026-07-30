@@ -466,6 +466,29 @@ article footer {
   justify-content: center; 
 }
 
+#btnDescargar, #btnCopiarMsg, #btnRecargar {
+  padding: 0.7rem 0.3rem;
+  border-radius: 8px;
+  border: 1px solid var(--azul);
+  font-weight: 600;
+}
+
+#btnDescargar {  
+  color: var(--blanco);
+  background-color: #094880E6;
+}
+
+#btnCopiarMsg {
+  color: #094880;
+  background-color: #09488000;
+}
+
+#btnRecargar {
+  color: #094880CC; 
+  background-color: #F5F7FA66;
+  border: 1px solid #09488080;
+}
+
 #parrafo-1-tarjeta {
   font-size: 0.9rem;
   color: var(--rojo);
