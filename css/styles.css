@@ -462,11 +462,12 @@ article footer {
   margin: 0.5rem 1rem;
   margin-top: auto; 
   display: flex;
-  gap: 1rem;
+  gap: 0.5rem;
   justify-content: center; 
 }
 
 #btnDescargar, #btnCopiarMsg, #btnRecargar {
+  font-size: 0.75rem;
   padding: 0.7rem 0.3rem;
   border-radius: 8px;
   border: 1px solid var(--azul);
@@ -556,7 +557,7 @@ article footer {
 
 #form-container {
   width: 100%;
-  max-width: 600px;
+  max-width: 450px;
   margin: 5% auto; 
   background-color: #E8F1FABF;
   padding: 25px 20px;
@@ -580,7 +581,7 @@ article footer {
   background-color: #A8C5EA66;
   border-radius: 8px;
   padding: 20px;
-  max-width: 500px;
+  max-width: 390px;
   margin: 0 auto;  
 }
 
@@ -619,7 +620,7 @@ article footer {
 }
 
 #parrafo-adhesion-2 {
-  color: #4A4A4A;
+  color: #4A4A4ACC;
   font-weight: bold;
   font-size: 0.8rem;
   margin: 10px;
