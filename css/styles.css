@@ -568,18 +568,19 @@ article footer {
 }
 
 #mensaje-final-seccion-tarjeta {
-  background-image: linear-gradient(to right, #A8C5EABF);
-  border: 1px solid var(--celeste);
-  border-radius: 0.5rem;
+  background-color: #F5F7FA80; 
+  background-image: linear-gradient(to right, #B71C1C40);
+  border: 1px solid #da5d5d80;
+  border-radius: 0.5rem; 
   padding: 1.5rem;
 }
-
+ 
 #mensaje-final-seccion-tarjeta h4 {
-  color: #094880;
+  color: #B71C1C;
 }
 
 #mensaje-final-seccion-tarjeta p {
-  color: #094880;
+  color: #B71C1C;
   font-weight: 500;
   font-size: 0.9rem;
 }
