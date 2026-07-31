@@ -109,7 +109,7 @@ header {
     top: 100%; /* Aparece justo abajo del header */
     left: 0;
     width: 100%;
-    background-color: var(--fondo-general);
+    background-color: #F4F1EA;
     box-shadow: 0 3px 7px rgba(0, 0, 0, 0.5);
   }
 
@@ -121,7 +121,17 @@ header {
   .nav-links ul {
     flex-direction: column; /* Lista vertical */
     padding: 20px;
-    gap: 15px;
+    gap: 0;
+  }
+
+  .nav-links ul a {
+    display: block;
+    padding: 1rem;
+    border-radius: 0.5rem;
+  }
+
+  .nav-links ul a:hover {
+    background-color: #dbd7cd;
   }
 }
 
@@ -547,7 +557,7 @@ article footer {
 }
 
 #mensaje-final-seccion-tarjeta {
-  background-color: #A8C5EABF; 
+  background-color: #A8C5EAA6;  
   border: 1px solid #A8C5EA00;
   border-radius: 0.5rem;
   padding: 1.5rem;
