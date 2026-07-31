@@ -46,6 +46,7 @@ h1, h2, h3 {
 header {
   background-color: var(--fondo-general);
   width: 100%;
+  padding: 0 0.5rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -64,13 +65,18 @@ header {
 
 .nav-links > ul {
   display: flex;
-  gap: 20px;
   list-style: none;  
 }
 
 .nav-links ul li a {
   text-decoration: none;
   color: var(--azul);
+  padding: 20px 10px; 
+  border-radius: 8px; 
+}
+
+.nav-links ul a:hover {
+  background-color: #dbd7cd;
 }
 
 /* Botón de hamburguesa -oculto en computadoras- */
@@ -124,14 +130,10 @@ header {
     gap: 0;
   }
 
-  .nav-links ul a {
+  .nav-links ul li a {
     display: block;
     padding: 0.6rem;
     border-radius: 0.5rem;
-  }
-
-  .nav-links ul a:hover {
-    background-color: #dbd7cd;
   }
 }
 
