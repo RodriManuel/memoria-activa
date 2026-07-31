@@ -33,3 +33,34 @@ function readMore(btn) {
 
     btn.textContent == "Leer Más" ? btn.textContent = "Leer Menos" : btn.textContent = "Leer Más";
 }
+
+
+// Generador de tarjeta conmemorativa.
+const nombre = document.getElementById("nombre");
+const mensaje = document.getElementById("mensaje");
+const generar = document.getElementById("btnGenerar");
+const tarjeta = document.getElementById("vista-previa");
+
+generar.addEventListener("click", () => {
+    //Validación de los campos
+    const nombreLimpio = nombre.value.trim();
+    const mensajeLimpio = mensaje.value.trim();
+
+    tarjeta.innerHTML = `<h3>Vista previa de tu tarjeta</h3>
+
+                        <div style="background-image: url('img/background_tarjeta_generada_v1.png'); background-position: center; background-size: cover; height: 320px; margin: 1.75rem 1rem; background-color: #F4F1EA; padding: 10px; padding-top: 40px; border-radius: 8px; box-shadow: 0 2px 6px rgba(0, 0, 0, 0.5);" id="tarjeta-generada">
+                            <h3 style="text-align: center; color: #0D1B2AE6;"> <span style="line-height: 2.5rem;  font-size: 0.9rem;">Memoria Activa</span> <br><span style="line-height: 0.1rem; font-size: 2rem;">50</span> <br> <span style="line-height: 0.5rem; font-size: 0.8rem;">AÑOS</span> <br> MEMORIA, <br> VERDAD Y JUSTICIA</h3> <br> 
+                            <div class="card-quote" style="text-align: center; color: #094880CC;">&ldquo;</div>
+                            <div style="display: flex; flex-direction: column; justify-content: space-between; height: 40%;">
+                                <p id="frase-conmemorativa" style="color: #094880D9; font-weight: 500; text-align: center; font-size: 0.80rem;  padding: 0 15px;">${mensajeLimpio}</p>
+                                <p id="nombre-conmemorativo" style="text-align: center; color: #094880D9; font-weight: 500; font-size: 0.90rem;"><span style="font-weight: 900;">-</span>${nombreLimpio}</p>
+                            </div>
+
+                        </div> 
+
+                        <div id="botones-vista-previa">
+                            <button id="btnDescargar">Descargar PNG</button>
+                            <button id="btnCopiarMsg">Copiar mensaje</button>
+                            <button id="btnRecargar">Crear otra</button>                        
+                        </div>`
+})
