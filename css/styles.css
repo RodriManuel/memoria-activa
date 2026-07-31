@@ -557,8 +557,8 @@ article footer {
 }
 
 #mensaje-final-seccion-tarjeta {
-  background-color: #A8C5EAA6;  
-  border: 1px solid #A8C5EA00;
+  background-image: linear-gradient(to right, #A8C5EABF);
+  border: 1px solid var(--celeste);
   border-radius: 0.5rem;
   padding: 1.5rem;
 }
@@ -568,7 +568,7 @@ article footer {
 }
 
 #mensaje-final-seccion-tarjeta p {
-  color: #0D1B2AE6;
+  color: #094880;
   font-weight: 500;
   font-size: 0.9rem;
 }
