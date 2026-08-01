@@ -116,9 +116,11 @@ header {
     display: none; /* Escondido por defecto */
     position: absolute;
     top: 100%; /* Aparece justo abajo del header */
-    left: 0;
-    width: 100%;
-    background-color: #F4F1EA;
+    left: 65%;
+    width: 35%;
+    height: 100vh;
+    /*background-color: #F4F1EA;*/
+    background-image: linear-gradient(to bottom, #F4F1EAF2 50%, transparent);
     box-shadow: 0 3px 7px rgba(0, 0, 0, 0.5);
   }
 
