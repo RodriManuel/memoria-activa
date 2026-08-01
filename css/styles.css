@@ -103,9 +103,6 @@ header {
 
 /* Menú responsive */
 @media (max-width: 768px) {
-  html {
-    scroll-padding-top: 55px; 
-  }
   /* Mostramos la hamburguesa */
   .menu-toggle {
     display: flex;
@@ -116,12 +113,12 @@ header {
     display: none; /* Escondido por defecto */
     position: absolute;
     top: 100%; /* Aparece justo abajo del header */
-    left: 65%;
-    width: 35%;
+    left: 58%;
+    width: 42%;
     height: 100vh;
-    /*background-color: #F4F1EA;*/
-    background-image: linear-gradient(to bottom, #F4F1EAF2 50%, transparent);
-    box-shadow: 0 3px 7px rgba(0, 0, 0, 0.5);
+    background-color: #F4F1EA;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.75); 
+    z-index: 5;
   }
 
   /* Cuando JavaScript le ponga la clase 'active', se va a mostrar */
@@ -131,7 +128,7 @@ header {
 
   .nav-links ul {
     flex-direction: column; /* Lista vertical */
-    padding: 10px 20px 10px 20px; 
+    padding: 10px 5px; 
     gap: 0;
   }
 
