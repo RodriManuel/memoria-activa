@@ -40,11 +40,45 @@ const nombre = document.getElementById("nombre");
 const mensaje = document.getElementById("mensaje");
 const generar = document.getElementById("btnGenerar");
 const tarjeta = document.getElementById("vista-previa");
+const alertaNombre = document.getElementById("alerta-input-nombre");
+const alertaMensaje = document.getElementById("alerta-input-mensaje");
+const formTarjeta = document.getElementById("form-tarjeta");
 
 generar.addEventListener("click", () => {
     //Validación de los campos
     const nombreLimpio = nombre.value.trim();
     const mensajeLimpio = mensaje.value.trim();
+
+    if (nombreLimpio === "" && mensajeLimpio === "") {
+        alertaNombre.textContent = "*este campo es obligatorio";
+        alertaNombre.className = "error";
+        alertaNombre.style.color = "#B71C1C";
+
+        alertaMensaje.textContent = "*este campo es obligatorio";
+        alertaMensaje.className = "error";
+        alertaMensaje.style.color = "#B71C1C";
+
+        alertaNombre.style.display = "inline";
+        alertaMensaje.style.display = "inline";
+        return;
+    }
+    
+    if (nombreLimpio === "") {
+        alertaNombre.style.display = "inline";
+        alertaNombre.textContent = "*este campo es obligatorio";
+        alertaNombre.className = "error";
+        alertaNombre.style.color = "#B71C1C";
+        return;
+    }
+
+    if (mensajeLimpio === "") {
+        alertaMensaje.style.display = "inline";
+        alertaMensaje.textContent = "*este campo es obligatorio";
+        alertaMensaje.className = "error";
+        alertaMensaje.style.color = "#B71C1C";
+        return;
+    }
+    
 
     tarjeta.innerHTML = `<h3>Vista previa de tu tarjeta</h3>
 
@@ -63,4 +97,8 @@ generar.addEventListener("click", () => {
                             <button id="btnCopiarMsg">Copiar mensaje</button>
                             <button id="btnRecargar">Crear otra</button>                        
                         </div>`
-})
+
+    formTarjeta.reset();
+    alertaNombre.style.display = "none";
+    alertaMensaje.style.display = "none";
+});
