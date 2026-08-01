@@ -58,7 +58,7 @@ header {
   top: 0;
   left: 0;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
-  z-index: 10;
+  z-index: 15; 
 }
 /* dimensiones del logo: 1966 x 683 */
 .logo {
@@ -112,13 +112,12 @@ header {
   .nav-links {
     display: none; /* Escondido por defecto */
     position: absolute;
-    top: 100%; /* Aparece justo abajo del header */
-    left: 58%;
-    width: 42%;
+    top: 99.1%; /* Aparece justo abajo del header */
+    left: 55%; 
+    width: 45%;
     height: 100vh;
-    background-color: #F4F1EA;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.75); 
-    z-index: 5;
+    background-color: #e4e1da;
+    box-shadow: -8px 0 6px -6px rgba(0, 0, 0, 0.75);
   }
 
   /* Cuando JavaScript le ponga la clase 'active', se va a mostrar */
@@ -136,6 +135,10 @@ header {
     display: block;
     padding: 0.6rem;
     border-radius: 0.5rem;
+  }
+
+  .nav-links ul a:hover {
+    background-color: #cac6ba;
   }
 }
 
