@@ -88,11 +88,10 @@ header {
   display: none;
   flex-direction: column;
   justify-content: space-between;
-  width: 30px;
-  height: 21px;
+  width: 35px;
+  height: 23px;
   background: transparent;
   border: none;
-  cursor: pointer;
 }
 
 .menu-toggle span {
