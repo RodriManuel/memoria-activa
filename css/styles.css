@@ -42,6 +42,10 @@ h1, h2, h3 {
   font-family: var(--fuente-titulos);
 }
 
+button {
+  cursor: pointer;
+}
+
 /*Estilos para la barra de navegación*/
 header {
   background-color: var(--fondo-general);
