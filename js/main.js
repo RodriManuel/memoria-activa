@@ -78,8 +78,8 @@ generar.addEventListener("click", () => {
         alertaMensaje.style.color = "#B71C1C";
         return;
     }
-    
-    document.getElementById("nombre-conmemorativo").textContent = nombreLimpio;
+
+    document.getElementById("nombre-conmemorativo").textContent = "-" + nombreLimpio;
     document.getElementById("frase-conmemorativa").textContent = mensajeLimpio;    
     
 
