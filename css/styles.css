@@ -666,14 +666,28 @@ article footer {
   background-color: #094880E6;   
 }
 
-#form-container form button:hover,
-#btnDescargar:hover, 
-#btnGenerar:hover,
-#btnCopiarMsg:hover,
-#btnRecargar:hover,
-.card button:hover {
-  background-color: var(--hoover-boton-azul);
-  color: ghostwhite;
+@media (hover: hover) {
+  #form-container form button:hover,
+  #btnDescargar:hover, 
+  #btnGenerar:hover,
+  #btnCopiarMsg:hover,
+  #btnRecargar:hover,
+  .card button:hover {
+    background-color: var(--hoover-boton-azul);
+    color: ghostwhite;
+  }
+} 
+
+@media (max-width: 768px) {
+  #form-container form button:active,
+  #btnDescargar:active, 
+  #btnGenerar:active,
+  #btnCopiarMsg:active,
+  #btnRecargar:active,
+  .card button:active {
+    background-color: var(--hoover-boton-azul);
+    color: ghostwhite;
+  } 
 }
 
 #section-hero a:hover {
