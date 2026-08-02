@@ -87,3 +87,15 @@ generar.addEventListener("click", () => {
     alertaNombre.style.display = "none";
     alertaMensaje.style.display = "none";
 });
+
+
+const download = document.getElementById("btnDescargar")
+//Descargador de Tarjeta
+download.addEventListener("click", () => {
+    html2canvas(tarjeta).then((canvas) => {
+        let link = document.createElement("a");
+        link.href = canvas.toDataURL("image/png");
+        link.download = "Tarjeta-Conmemorativa.png";
+        link.click();
+    });
+});
