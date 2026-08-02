@@ -462,7 +462,7 @@ article footer {
   max-width: 390px;
   padding: 15px;
   border-radius: 8px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); 
 }
 
 #form-tarjeta div {
@@ -572,11 +572,16 @@ article footer {
   font-weight: bold;
 }
 
+#mensaje-final-container {
+  background-color: #E8F1FA;
+  border-radius: 8px;
+}
+
 #mensaje-final-seccion-tarjeta {
-  background-color: #ABCDE180;
+  background-color: #A8C5EABF;
   border: 1px solid #09488040; 
   border-radius: 0.5rem; 
-  padding: 1.5rem;
+  padding: 1.25rem; 
 }
  
 #mensaje-final-seccion-tarjeta h4 {
