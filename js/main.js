@@ -52,11 +52,11 @@ generar.addEventListener("click", () => {
     if (nombreLimpio === "" && mensajeLimpio === "") {
         alertaNombre.textContent = "*este campo es obligatorio";
         alertaNombre.className = "error";
-        alertaNombre.style.color = "#B71C1C";
+        alertaNombre.style.color = "#FF0000";
 
         alertaMensaje.textContent = "*este campo es obligatorio";
         alertaMensaje.className = "error";
-        alertaMensaje.style.color = "#B71C1C";
+        alertaMensaje.style.color = "#FF0000";
 
         alertaNombre.style.display = "inline";
         alertaMensaje.style.display = "inline";
@@ -67,7 +67,7 @@ generar.addEventListener("click", () => {
         alertaNombre.style.display = "inline";
         alertaNombre.textContent = "*este campo es obligatorio";
         alertaNombre.className = "error";
-        alertaNombre.style.color = "#B71C1C";
+        alertaNombre.style.color = "#FF0000";
         return;
     }
 
@@ -75,7 +75,7 @@ generar.addEventListener("click", () => {
         alertaMensaje.style.display = "inline";
         alertaMensaje.textContent = "*este campo es obligatorio";
         alertaMensaje.className = "error";
-        alertaMensaje.style.color = "#B71C1C";
+        alertaMensaje.style.color = "#FF0000";
         return;
     }
 
