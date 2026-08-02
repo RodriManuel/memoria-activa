@@ -12,6 +12,7 @@
   --blanco: #F5F7FA;
   --rojo: #B71C1C;
   --oro: #D4AF37;
+  --hoover-boton-azul: #042a4b;
 
   --fuente-general: 'Inter', serif;
   --fuente-titulos:'Lora', sans-serif;
@@ -586,13 +587,12 @@ article footer {
 }
 
 #mensaje-final-container {
-  background-color: #E8F1FA;
+  background-color: #E8F1FA80;
   border-radius: 8px;
 }
 
 #mensaje-final-seccion-tarjeta {
-  background-color: #A8C5EABF;
-  border: 1px solid #09488040; 
+  background-color: #A8C5EA80;
   border-radius: 0.5rem; 
   padding: 1.25rem; 
 }
@@ -624,7 +624,7 @@ article footer {
   padding: 25px 20px;
   border-radius: 8px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
-}
+} 
 
 #form-container h3 {
   color: var(--azul);
@@ -664,6 +664,22 @@ article footer {
   color: var(--blanco);
   font-weight: bold;
   background-color: #094880E6;   
+}
+
+#form-container form button:hover,
+#btnDescargar:hover, 
+#btnGenerar:hover,
+#btnCopiarMsg:hover,
+#btnRecargar:hover,
+.card button:hover {
+  background-color: var(--hoover-boton-azul);
+  color: ghostwhite;
+}
+
+#section-hero a:hover {
+  background-color: var(--celeste);
+  color: var(--azul-profundo);
+  border: none; 
 }
 
 #form-container h2 {
