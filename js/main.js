@@ -79,7 +79,7 @@ generar.addEventListener("click", () => {
         return;
     }
 
-    document.getElementById("nombre-conmemorativo").textContent = "-" + nombreLimpio;
+    document.getElementById("nombre-conmemorativo").textContent = "— " + nombreLimpio;
     document.getElementById("frase-conmemorativa").textContent = mensajeLimpio;    
     
 
