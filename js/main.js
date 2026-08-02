@@ -89,8 +89,9 @@ generar.addEventListener("click", () => {
 });
 
 
-const download = document.getElementById("btnDescargar")
 //Descargador de Tarjeta
+const download = document.getElementById("btnDescargar")
+
 download.addEventListener("click", () => {
     html2canvas(tarjeta).then((canvas) => {
         let link = document.createElement("a");
@@ -98,4 +99,40 @@ download.addEventListener("click", () => {
         link.download = "Tarjeta-Conmemorativa.png";
         link.click();
     });
+});
+
+
+// Validación del formulario de adhesión.
+const formAdhesion = document.getElementById("adhesion-form");
+const inputMail = document.getElementById("adhesion-mail");
+const inputNombre = document.getElementById("adhesion-nombre");
+const inputApellido = document.getElementById("adhesion-apellido");
+const alertMessage = document.getElementById("adhesion-message");
+
+formAdhesion.addEventListener("submit", (e) => {
+    e.preventDefault();
+
+    const mail = inputMail.value.trim();
+    const nombre = inputNombre.value.trim();
+    const apellido = inputApellido.value.trim();
+
+    if (nombre === "" || apellido === "" || mail === "") {
+        alertMessage.textContent = "¡Llená todos los campos!";
+        alertMessage.className = "error";
+        alertMessage.style.color = "#FF0000";
+        alertMessage.style.padding = "10px 0"
+        alertMessage.style.border = "1px solid rgb(226, 6, 6, .75)";
+        alertMessage.style.borderRadius = "6px";
+        alertMessage.style.backgroundColor = "rgb(226, 6, 6, .35)";
+        return;
+    }
+
+    alertMessage.textContent = `¡Gracias por adherirte, ${nombre}!`;
+    alertMessage.className = "success";
+    alertMessage.style.color = "#008000";
+    alertMessage.style.padding = "10px 0"
+    alertMessage.style.border = "1px solid rgb(4, 109, 4, .75)";
+    alertMessage.style.borderRadius = "6px";
+    alertMessage.style.backgroundColor = "rgb(4, 109, 4, .35)";
+    formAdhesion.reset();
 });
