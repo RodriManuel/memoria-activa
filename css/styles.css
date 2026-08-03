@@ -801,6 +801,11 @@ article footer {
   color: var(--celeste);
 }
 
+#footer-seccion-1 .p-footer span {
+  color: var(--celeste);
+  font-weight: 900;
+}
+
 @media (max-width: 768px) {
   #secciones-footer-container { 
     flex-direction: column;
