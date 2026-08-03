@@ -8,30 +8,38 @@ menuToggle.addEventListener('click', () => {
 
 
 // Leer Más/Menos en los testimonios.
-let limiteDeCaracteres = 144;
-let citas = document.querySelectorAll(".cita");
+const limiteDeCaracteres = 144;
+const citas = document.querySelectorAll(".cita");
 
 citas.forEach(cita => {
-    
-    let blockquote = cita.closest("blockquote");
-    
-    let boton = blockquote?.nextElementSibling;
+    const blockquote = cita.closest("blockquote");
+    const boton = blockquote?.nextElementSibling;
 
+    // Si el texto es corto, ocultamos el botón
     if (boton && cita.textContent.length <= limiteDeCaracteres) {
         boton.style.display = "none";
-    } else {
-        let displayText = cita.textContent.slice(0, limiteDeCaracteres);
-        let moreText = cita.textContent.slice(limiteDeCaracteres);
+    } else if (boton) {
+        // Recortamos el texto e inyectamos los spans correspondientes
+        const textoCompleto = cita.textContent;
+        const displayText = textoCompleto.slice(0, limiteDeCaracteres);
+        const moreText = textoCompleto.slice(limiteDeCaracteres);
+
         cita.innerHTML = `${displayText}<span class="dots">...</span><span class="hide more">${moreText}</span>`;
     }
 });
 
+// Función global para el botón "Leer Más"
 function readMore(btn) {
-    let cardBody = btn.parentElement;
-    cardBody.querySelector(".dots").classList.toggle("hide");
-    cardBody.querySelector(".more").classList.toggle("hide");
+    const cardBody = btn.parentElement;
+    const dots = cardBody.querySelector(".dots");
+    const more = cardBody.querySelector(".more");
 
-    btn.textContent == "Leer Más" ? btn.textContent = "Leer Menos" : btn.textContent = "Leer Más";
+    if (dots && more) {
+        dots.classList.toggle("hide");
+        more.classList.toggle("hide");
+
+        btn.textContent = btn.textContent === "Leer Más" ? "Leer Menos" : "Leer Más";
+    }
 }
 
 
@@ -135,4 +143,25 @@ formAdhesion.addEventListener("submit", (e) => {
     alertMessage.style.borderRadius = "6px";
     alertMessage.style.backgroundColor = "rgb(4, 109, 4, .35)";
     formAdhesion.reset();
+});
+
+
+// Lógica para el buscador de testimonios.
+const buscador = document.getElementById("buscador");
+const testimonios = document.querySelectorAll(".card");
+
+buscador.addEventListener("input", () => {
+    const textoABuscar = buscador.value.toLowerCase().trim();
+
+    testimonios.forEach(testimonio => {
+        // textContent lee todo el texto de la tarjeta (incluido el oculto en 'more')
+        const textoTestimonio = testimonio.textContent.toLowerCase();
+
+        // Solo alternamos la visibilidad de la tarjeta completa (.card)
+        if (textoTestimonio.includes(textoABuscar)) {
+            testimonio.style.display = '';
+        } else {
+            testimonio.style.display = 'none';
+        }
+    });
 });
