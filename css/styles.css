@@ -737,8 +737,21 @@ article footer {
   background-size: cover;
 }
 
+#secciones-footer-container {
+  padding: 1rem; 
+  display: flex;
+} 
+
+#secciones-footer-container hr {
+  margin: 10px; 
+} 
+
+#secciones-footer-container div {
+  flex: 1;
+}
+
 #footer p {
-  margin: 10px;   
+  margin: 15px;    
 }
 
 #footer ul li a {
