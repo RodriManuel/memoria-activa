@@ -803,7 +803,7 @@ article footer {
 
 #footer-seccion-1 .p-footer span {
   color: var(--celeste);
-  font-weight: 600;
+  font-weight: 650;
 }
 
 @media (max-width: 768px) {
