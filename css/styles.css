@@ -759,6 +759,10 @@ article footer {
   color: var(--blanco);
 }
 
+#footer ul li {
+  margin: 0.5rem;
+}
+
 .p-footer {
   color: var(--blanco);
 }
@@ -793,6 +797,32 @@ article footer {
 #footer-seccion-final a {
   text-decoration: none;
   color: var(--celeste);
+}
+
+@media (max-width: 768px) {
+  #secciones-footer-container { 
+    flex-direction: column;
+  }
+
+  #secciones-footer-container p, #footer ul li a { 
+    font-size: 0.9rem;
+  } 
+
+  #footer h2 {
+    font-size: 1.56rem;
+  }
+
+  #footer h3 {
+    font-size: 1.2rem;
+  }
+
+  #footer-seccion-1 #footer-fecha {
+    font-size: 1.2rem;
+  }
+
+  #frase-footer {
+    font-size: 1.4rem;
+  }
 }
 
 .hide {
