@@ -773,6 +773,7 @@ article footer {
 
 #footer h2 {
   font-size: 1.95rem;
+  margin-bottom: -15px;
 }
 
 #footer h3 {
@@ -784,6 +785,7 @@ article footer {
   font-size: 1.35rem;
   font-family: var(--fuente-titulos); 
   color: var(--celeste); 
+  margin-top: -15px;  
 }
 
 #frase-footer {
@@ -820,8 +822,12 @@ article footer {
     font-size: 1.2rem;
   }
 
-  #frase-footer {
-    font-size: 1.4rem;
+  #footer-seccion-final p, a {
+    font-size: 0.9rem;    
+  }
+
+  #footer #frase-footer {
+    font-size: 1.2rem;
   }
 }
 
