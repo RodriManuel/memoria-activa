@@ -1,5 +1,5 @@
 # Memoria Activa
-Landing page desarrollada para la materia **Lenguajes Informáticos I**
+Landing page desarrollada para la materia **Lenguajes Informáticos I**.
 
 El proyecto forma parte de la iniciativa *Programando con Memoria*, el objetivo es aplicar conceptos de desarrollo web en la construcción de un sitio dedicado a la memoria, la verdad y la justicia.
 
@@ -9,6 +9,7 @@ demo: [Visitar Página](https://memoria-activa-unahur.vercel.app/)
 ![HTML5](https://img.shields.io/badge/HTML5-white?logo=html5&logoColor=white&color=E34F26) 
 ![CSS3](https://img.shields.io/badge/CSS3-white?logo=css&logoColor=white&color=3C99DC) <br>
 ![JavaScript](https://img.shields.io/badge/JavaScript-white?logo=javascript&logoColor=black&color=F7DF1E) <br>
+![html2canvas](https://img.shields.io/badge/html2canvas-v1.4.1-%23E34F26?logo=html5&logoColor=white) <br>
 ![Vercel](https://img.shields.io/badge/Vercel-black?&logo=vercel&logoColor=white)
 
 ## Funcionalidades
@@ -36,6 +37,7 @@ demo: [Visitar Página](https://memoria-activa-unahur.vercel.app/)
 No requiere intalación de dependencias.
 
 ## Capturas
+<img src="img/Tarjeta-Conmemorativa-1.jpg" alt="">
 
 ## Autor
 Rodrigo Perez - Licenciatura en Informática<br>
