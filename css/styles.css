@@ -181,8 +181,8 @@ main {
 }
 
 #oracion-destacada {
-  font-weight: 800;
-  color: var(--azul); 
+  font-weight: 700;
+  color: var(--celeste); 
 }
 
 .container-links-hero {
