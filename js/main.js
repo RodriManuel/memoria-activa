@@ -127,21 +127,21 @@ formAdhesion.addEventListener("submit", (e) => {
     if (nombre === "" || apellido === "" || mail === "") {
         alertMessage.textContent = "¡Llená todos los campos!";
         alertMessage.className = "error";
-        alertMessage.style.color = "#FF0000";
+        alertMessage.style.color = "#dc3545 ";
         alertMessage.style.padding = "10px 0"
-        alertMessage.style.border = "1px solid rgb(226, 6, 6, .75)";
+        alertMessage.style.border = "1px solid #dc3545";
         alertMessage.style.borderRadius = "6px";
-        alertMessage.style.backgroundColor = "rgb(226, 6, 6, .35)";
+        alertMessage.style.backgroundColor = "#f8d7da"; 
         return;
     }
 
     alertMessage.textContent = `¡Gracias por adherirte, ${nombre}!`;
     alertMessage.className = "success";
-    alertMessage.style.color = "#008000";
+    alertMessage.style.color = "#198754";
     alertMessage.style.padding = "10px 0"
-    alertMessage.style.border = "1px solid rgb(4, 109, 4, .75)";
+    alertMessage.style.border = "1px solid #198754";
     alertMessage.style.borderRadius = "6px";
-    alertMessage.style.backgroundColor = "rgb(4, 109, 4, .35)";
+    alertMessage.style.backgroundColor = "#d1e7dd";
     formAdhesion.reset();
 });
 
