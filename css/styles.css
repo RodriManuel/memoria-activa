@@ -806,6 +806,11 @@ article footer {
   font-weight: 650;
 }
 
+#logo-unahur {
+  width: 85%;
+  margin-top: 1rem;
+}
+
 @media (max-width: 768px) {
   #secciones-footer-container { 
     flex-direction: column;
@@ -833,6 +838,11 @@ article footer {
 
   #footer #frase-footer {
     font-size: 1.2rem;
+  }
+
+  #logo-unahur {
+    width: 55%;
+    margin-top: 0.75rem; 
   }
 }
 
