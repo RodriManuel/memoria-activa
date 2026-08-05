@@ -209,6 +209,11 @@ main {
   text-decoration: none; 
 }
 
+#fechas-hero {
+  font-family: var(--fuente-titulos); 
+  color: var(--blanco);
+}
+
 @media (max-width: 768px) {
   .container-links-hero {
     flex-direction: column;
