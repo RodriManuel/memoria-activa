@@ -1,7 +1,9 @@
 // Fecha actual dinámica.
-const annoActual = querySelectorAll(".year");
+const annosActuales = document.querySelectorAll(".year");
 
-annoActual.textContent = new Date().getFullYear();
+annosActuales.forEach(anno => {
+    anno.textContent = new Date().getFullYear();
+});
 
 
 // Menú desplegable.
