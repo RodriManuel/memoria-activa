@@ -764,6 +764,10 @@ article footer {
   color: var(--blanco);
 }
 
+#footer ul {
+  list-style: none;
+}
+
 #footer ul li {
   margin: 0.5rem;
 }
