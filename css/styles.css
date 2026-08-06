@@ -743,7 +743,7 @@ article footer {
 }
 
 #secciones-footer-container {
-  padding: 1rem; 
+  padding: 0 1rem; 
   display: flex;
 } 
 
@@ -814,6 +814,10 @@ article footer {
 #logo-unahur {
   width: 85%;
   margin-top: 1rem;
+}
+
+#redes-sociales img {
+  filter: brightness(0) invert(1);
 }
 
 @media (max-width: 768px) {
