@@ -1,3 +1,10 @@
+// Fecha actual dinámica.
+const annoActual = querySelectorAll(".year");
+
+annoActual.textContent = new Date().getFullYear();
+
+
+// Menú desplegable.
 const menuToggle = document.querySelector('.menu-toggle');
 const navLinks = document.querySelector('.nav-links');
 
