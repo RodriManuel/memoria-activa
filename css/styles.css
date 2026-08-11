@@ -688,6 +688,12 @@ article footer {
     color: var(--azul-profundo);
     border: 1px solid transparent; 
   }
+
+  .nav-footer ul li a:hover {
+    background-color: var(--celeste);
+    border: 1px solid transparent;
+    border-radius: 4px;
+  }
 } 
 
 @media (hover: none) {
@@ -706,6 +712,12 @@ article footer {
     background-color: var(--celeste);
     color: var(--azul-profundo);
     border: 1px solid transparent; 
+  }
+
+  .nav-footer ul li a:hover {
+    background-color: var(--celeste);
+    border: 1px solid transparent;
+    border-radius: 4px;
   }
 }
 
