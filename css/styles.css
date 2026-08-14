@@ -116,30 +116,33 @@ header {
 
 /* Menú responsive */
 @media (max-width: 768px) {
-  /* Mostramos la hamburguesa */
   .menu-toggle {
     display: flex;
   }
 
-  /* Transformamos el menú en un panel desplegable */
   .nav-links {
-    display: none; /* Escondido por defecto */
     position: absolute;
-    top: 99.1%; /* Aparece justo abajo del header */
+    top: 99.1%;
     left: 55%; 
     width: 45%;
     height: 100vh;
     background-color: #e4e1da;
     box-shadow: -8px 0 6px -6px rgba(0, 0, 0, 0.75);
+
+    opacity: 1;
+    visibility: hidden;
+    transform: translateX(100%);
+    transition: opacity 0.3s linear, transform 0.3s linear, visibility 0.3s;
   }
 
-  /* Cuando JavaScript le ponga la clase 'active', se va a mostrar */
   .nav-links.active {
-    display: block;
+    opacity: 1;
+    visibility: visible;
+    transform: translateX(0);
   }
 
   .nav-links ul {
-    flex-direction: column; /* Lista vertical */
+    flex-direction: column;
     padding: 10px 5px; 
     gap: 0;
   }
@@ -176,7 +179,7 @@ main {
 }
 
 #section-hero p {
-  max-width: 60%;
+  max-width: 52.5%;
   margin: .5rem 0;
 }
 
