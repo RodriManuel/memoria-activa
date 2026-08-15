@@ -166,7 +166,7 @@ main {
 /* Estilos para el Hero de la página */
 #section-hero {
   color: var(--blanco);
-  padding: 1rem;
+  padding: 20px 15px;
   background-image: url("../img/background_hero.png"); 
   background-size: cover;
   background-repeat: no-repeat;
@@ -229,6 +229,7 @@ main {
 
 /* Estilos de la línea de tiempo */
 #section-time-line {
+  padding: 20px 15px;
   position: relative;
   max-width: 1200px;
   margin: 0 auto;
@@ -240,9 +241,8 @@ main {
 
 #section-time-line h2 {
   color: var(--azul);
-  font-size: 1.75rem;
+  font-size: 1.85rem;
   text-align: center;
-  padding: 10px; 
 }
 
 .container-tl-item {
@@ -331,7 +331,6 @@ main {
   #section-time-line h2 {
     color: var(--azul);
     text-align: left;
-    padding: 10px;
   }
 
   #section-time-line::after {
@@ -371,7 +370,7 @@ main {
 
 /* Estilos de la sección de testimonios */
 #section-testimonios {
-  padding: 20px;
+  padding: 20px 15px;
   background-image: linear-gradient(to bottom, #F4F1EA, transparent 10%, transparent 90%, #F4F1EAE6); 
 }
 
@@ -452,7 +451,7 @@ article footer {
 
 /* Estilos de la sección de la tarjeta conmemorativa */
 #section-tarjeta {
-  padding: 25px 20px;
+  padding: 20px 15px;
   background-image: url("../img/background_testimonios_v2.png");
   background-repeat: no-repeat;
   background-size: cover;
@@ -466,9 +465,7 @@ article footer {
 
 #section-tarjeta h2 {
   color: var(--azul);
-  font-size: 1.75rem;
-  line-height: 1.6rem;
-  margin-bottom: 10px;
+  font-size: 1.85rem;
 }
 
 #container-form-vista {
