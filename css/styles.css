@@ -714,7 +714,7 @@ article footer {
     border: 1px solid transparent; 
   }
 
-  .nav-footer ul li a:hover {
+  .nav-footer ul li a:active {
     background-color: var(--celeste);
     border: 1px solid transparent;
     border-radius: 4px;
