@@ -288,6 +288,7 @@ main {
   background-color: var(--celeste-palido); 
   border-radius: 6px;
   font-size: 0.95em;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 
 #section-time-line::after {
@@ -343,7 +344,7 @@ main {
   .container-tl-item {
     width: 100%;
     padding-left: 80px;
-    padding-right: 10px;
+    padding-right: 5px;
   }
 
   .timeline-item {
@@ -483,7 +484,7 @@ article footer {
   max-width: 390px;
   padding: 15px;
   border-radius: 8px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); 
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
 }
 
 #form-tarjeta div {
