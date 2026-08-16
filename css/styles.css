@@ -262,10 +262,12 @@ main {
 
 .left-tl-container {
   left: 0;
+  padding-left: 10px;
 }
 
 .right-tl-container {
   left: 50%;
+  padding-right: 10px;
 }
 
 .container-tl-item img {
@@ -334,14 +336,14 @@ main {
   }
 
   #section-time-line::after {
-    left: 31px;
+    left: 50px;
     height: 92.2%;  
   }
 
   .container-tl-item {
     width: 100%;
     padding-left: 80px;
-    padding-right: 25px;
+    padding-right: 10px;
   }
 
   .timeline-item {
