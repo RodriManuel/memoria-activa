@@ -694,6 +694,7 @@ article footer {
 
   .nav-footer ul li a:hover {
     background-color: var(--celeste);
+    color: var(--azul-profundo);
     border: 1px solid transparent;
     border-radius: 4px;
   }
@@ -788,7 +789,7 @@ article footer {
   margin: 15px;    
 }
 
-#footer ul li a {
+.nav-footer ul li a {
   text-decoration: none;
   color: var(--blanco);
 }
