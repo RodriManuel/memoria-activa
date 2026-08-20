@@ -47,7 +47,7 @@ function readMore(btn) {
         dots.classList.toggle("hide");
         more.classList.toggle("hide");
 
-        btn.textContent = btn.textContent === "Leer Más →" ? "Leer Menos ←" : "Leer Más →";
+        btn.textContent = btn.textContent === "Leer Más" ? "Leer Menos" : "Leer Más";
     }
 }
 
