@@ -231,11 +231,10 @@ main {
 #section-time-line {
   padding: 20px 15px;
   position: relative;
-  max-width: 1200px;
   margin: 0 auto;
-  background-image: url("../img/background_timeline.png");
+  background-image: url("../img/backgorund_timeline_v2.png");
   background-repeat: no-repeat;
-  background-position: right;
+  background-position: center;
   background-size: cover;
 }
 
