@@ -52,11 +52,11 @@ button {
 }
 
 input:focus {
-  outline: 2px solid #A8C5EA; 
+  outline: 1px solid #A8C5EA; 
 }
 
 textarea:focus {
-  outline: 2px solid #A8C5EA;
+  outline: 1px solid #A8C5EA;
 } 
 
 /*Estilos para la barra de navegación*/
