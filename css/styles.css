@@ -384,7 +384,7 @@ main {
 #buscador-container {
   position: relative;
   display: flex;
-  align-items: center;
+  align-items: center; 
 }
 
 #buscador-container img {
@@ -578,13 +578,31 @@ article footer {
   text-align: center;
 }
 
+.tarjeta-input-container {
+  position: relative;
+}
+
+#alerta-input-nombre {
+  margin: 0;
+  font-size: 0.8rem;
+}
+
+.tarjeta-input-container img {
+  position: absolute;
+  width: 1.25rem; 
+  height: 1.25rem;
+  bottom: 10px;
+  left: 0.45rem;
+  pointer-events: none;
+}
+
 #form-tarjeta label {
   color: var(--azul);
   font-weight: 500;
 }
 
 #form-tarjeta input[type="text"] {
-  padding: 10px 20px;
+  padding: 10px 30px;
   width: 100%;
   border: 1px solid #ABCDE1;
   border-radius: 8px;
