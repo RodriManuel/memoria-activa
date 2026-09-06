@@ -538,6 +538,18 @@ article footer {
   width: 1.45rem; 
 }
 
+.btnDownload__container {
+  position: relative;
+}
+
+.download__icon {
+  position: absolute; 
+  width: 1.3rem; 
+  top: 8px;
+  filter: invert(1);
+  pointer-events: none;
+}
+
 
 #btnDescargar, #btnCopiarMsg, #btnRecargar {
   font-size: 0.75rem;
@@ -550,6 +562,8 @@ article footer {
 #btnDescargar {  
   color: var(--blanco);
   background-color: #094880E6;
+  padding-left: 1.2rem;
+  padding-right: .15rem;
 }
 
 #btnCopiarMsg {
@@ -606,6 +620,7 @@ article footer {
   left: 0.45rem;
   pointer-events: none;
 }
+
 
 .tarjeta-input-container-2 {
   position: relative;
