@@ -561,6 +561,16 @@ article footer {
   pointer-events: none;
 }
 
+.btnRepeat__container {
+  position: relative;
+}
+
+.repeat__icon {
+  position: absolute; 
+  width: 1.3rem; 
+  top: 8px;
+  pointer-events: none;
+}
 
 #btnDescargar, #btnCopiarMsg, #btnRecargar {
   font-size: 0.75rem;
@@ -588,6 +598,8 @@ article footer {
   color: #094880CC; 
   background-color: #F5F7FA66;
   border: 1px solid #09488080;
+  padding-left: 1.2rem;
+  padding-right: .15rem;
 }
 
 #parrafo-1-tarjeta {
