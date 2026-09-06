@@ -550,6 +550,17 @@ article footer {
   pointer-events: none;
 }
 
+.btnCopy__container {
+  position: relative;
+}
+
+.copy__icon {
+  position: absolute; 
+  width: 1.3rem; 
+  top: 8px;
+  pointer-events: none;
+}
+
 
 #btnDescargar, #btnCopiarMsg, #btnRecargar {
   font-size: 0.75rem;
@@ -569,6 +580,8 @@ article footer {
 #btnCopiarMsg {
   color: #094880;
   background-color: #09488000;
+  padding-left: 1.2rem;
+  padding-right: .15rem;
 }
 
 #btnRecargar {
