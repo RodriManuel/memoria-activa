@@ -528,6 +528,17 @@ article footer {
   justify-content: center; 
 }
 
+.vistaPrevia__header {
+  display: flex;
+  gap: .25rem;
+  align-items: center;
+}
+
+.eye__icon {
+  width: 1.45rem; 
+}
+
+
 #btnDescargar, #btnCopiarMsg, #btnRecargar {
   font-size: 0.75rem;
   padding: 0.7rem 0.3rem;
