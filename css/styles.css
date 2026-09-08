@@ -750,10 +750,24 @@ article footer {
   margin: 0 auto;  
 }
 
+.form-inputContainer {
+  position: relative;
+}
+
+.form-inputContainer img {
+  position: absolute;
+  width: 1.95rem; 
+  height: 1.95rem; 
+  bottom: 21px;
+  right: 264px; 
+  pointer-events: none;
+}
+
 #form-container input[type="email"],
 #form-container input[type="text"] {
   width: 100%;
   padding: 12px;
+  padding-left: 30px;
   margin: 10px 0;
   border: 1px solid #ABCDE1;
   border-radius: 8px;
